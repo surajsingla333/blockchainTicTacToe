@@ -75,7 +75,7 @@ function _contractJoin(_ad, _p2, _val){
         console.log(`\nTansaction Hash : ${hash}\n`);
     })
     .on('receipt', function(receipt){
-        console.log(`\nRecepient ${receipt}\n`);
+        // console.log(`\nRecepient ${receipt}\n`);
     })
     .on('error', function (error) { console.log(`\nError : ${error}\n`); _startQuestions()})
     .then(function (newFunction) {
